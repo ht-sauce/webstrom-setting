@@ -1,0 +1,32 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogHeight" value="403" />
+    <option name="newTranslationDialogWidth" value="699" />
+    <option name="newTranslationDialogX" value="748" />
+    <option name="newTranslationDialogY" value="261" />
+    <histories>
+      <item value="有效" />
+      <item value="产品品类" />
+      <item value="产品" />
+      <item value="产品屏裂" />
+      <item value="产品评论" />
+      <item value="produc" />
+      <item value="product" />
+      <item value="productClasses" />
+      <item value="Cascader" />
+      <item value="递归" />
+      <item value="children" />
+      <item value=" child" />
+      <item value="金额" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="9" />
+        <entry key="ENGLISH" value="6" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1660630487999" />
+  </component>
+</application>
