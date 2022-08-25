@@ -1,0 +1,57 @@
+<application>
+  <component name="GitCommitMessageHelperSettings">
+    <option name="dateSettings">
+      <DataSettings>
+        <option name="template" value="#if($type)【提交类型】：#end&#10;#if($type)${type}#end${newline}&#10;#if($scope)【修改内容】：#end&#10;#if($scope)${scope}#end${newline}&#10;#if($subject)【测试内容】：#end&#10;#if($subject)${subject}#end${newline}&#10;#if($body)【评 审 人】:#end&#10;#if($body)${body}#end${newline}&#10;#if($changes)【代码评审】: #end&#10;#if($changes)${changes}#end${newline}&#10;#if($closes)【jira单号链接】：#end&#10;#if($closes)${closes}#end${newline}" />
+        <option name="typeAliases">
+          <list>
+            <TypeAlias>
+              <option name="title" value="初次提交" />
+              <option name="description" value="A new feature" />
+            </TypeAlias>
+            <TypeAlias>
+              <option name="title" value="缺陷修改" />
+              <option name="description" value="A bug fix" />
+            </TypeAlias>
+            <TypeAlias>
+              <option name="title" value="代码重构" />
+              <option name="description" value="Documentation only changes" />
+            </TypeAlias>
+            <TypeAlias>
+              <option name="title" value="样式修改" />
+              <option name="description" value="Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)" />
+            </TypeAlias>
+            <TypeAlias>
+              <option name="title" value="需求修改" />
+              <option name="description" value="A code change that neither fixes a bug nor adds a feature" />
+            </TypeAlias>
+            <TypeAlias>
+              <option name="title" value="文档修改" />
+              <option name="description" value="A code change that improves performance" />
+            </TypeAlias>
+            <TypeAlias>
+              <option name="title" value="测试" />
+              <option name="description" value="Adding missing tests or correcting existing tests" />
+            </TypeAlias>
+            <TypeAlias>
+              <option name="title" value="build" />
+              <option name="description" value="Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)" />
+            </TypeAlias>
+            <TypeAlias>
+              <option name="title" value="ci" />
+              <option name="description" value="Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)" />
+            </TypeAlias>
+            <TypeAlias>
+              <option name="title" value="初次提交" />
+              <option name="description" value="Other changes that don't modify src or test files" />
+            </TypeAlias>
+            <TypeAlias>
+              <option name="title" value="revert" />
+              <option name="description" value="Reverts a previous commit" />
+            </TypeAlias>
+          </list>
+        </option>
+      </DataSettings>
+    </option>
+  </component>
+</application>
